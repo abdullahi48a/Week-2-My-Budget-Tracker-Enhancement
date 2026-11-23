@@ -1,0 +1,124 @@
+
+/* Style the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Style the Add Expense section */
+.add-expense-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Style the Your Expenses section */
+.expenses-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Style all input fields */
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style section headings */
+h2 {
+    color: darkgreen;
+}
+
+/* ID selector */
+#expense-name {
+    background-color: #f0f8ff;
+}
+
+/* Expense Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Table headers and cells */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table header */
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #d6eaf8;
+}
+
+/* Style the category dropdown */
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the Add Expense button */
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+/* Descendant Selector */
+.expenses-section td {
+    font-size: 15px;
+}
+
+/* Focus Pseudo-class */
+input:focus {
+    outline: 2px solid blue;
+    border-color: blue;
+}
+
+/* Negation Selector */
+input:not([type="submit"]) {
+    background-color: #f9f9f9;
+}
+
+
